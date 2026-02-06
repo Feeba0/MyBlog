@@ -1,0 +1,77 @@
+
+
+#jumpMenu{
+    font-size: 24px;
+    text-align: center;
+    background-color: darkgoldenrod;
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 15%;
+    height: 100vh;
+
+}
+
+header{
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 15%;
+    width: 85%
+    
+}
+header p {
+    background-color: red;
+    font-size: 36px;
+    margin: 0;
+    padding: 20px;
+}
+
+header nav  {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    margin: 0;
+    height: 75px;
+}
+
+header button{ 
+    background-color: blue;
+    color: white;
+    font-size: 28px;
+    padding: 15px;
+    width: 20%
+}
+
+h1{
+    margin-left: 15%;
+    font-size: 60px;
+    text-align: center;
+    margin-top: 150px;
+}
+
+#container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    margin-left: 25%;
+}
+
+article { 
+    width: 300px;
+}
+
+#thanks{
+    border: 1px solid black;
+    font-size: 36px;
+    margin: 0;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    background-color: lightblue;
+    padding: 20px;
+}
